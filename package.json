@@ -5,11 +5,22 @@
   "license": "MIT",
   "scripts": {
     "build": "babel index.js --out-dir dist",
-    "start": "node dist/index"
+    "start": "node dist/index",
+    "test": "jest --no-cache"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "fp-ts": "2.9.5",
+    "io-ts": "2.2.14",
+    "lodash": "4.17.21",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-query": "3.8.2"
   },
   "devDependencies": {
     "@babel/cli": "7.13.0",
     "@babel/core": "7.13.1",
-    "@babel/preset-env": "7.13.5"
+    "@babel/preset-env": "7.13.5",
+    "jest": "26.6.3"
   }
 }
