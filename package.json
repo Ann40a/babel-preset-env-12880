@@ -1,0 +1,15 @@
+{
+  "name": "preset-env-12880",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js --out-dir dist",
+    "start": "node dist/index"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.13.0",
+    "@babel/core": "7.13.1",
+    "@babel/preset-env": "7.13.5"
+  }
+}
